@@ -1,7 +1,7 @@
 [Container]
 Image=docker.io/library/alpine:3.20
 Exec=sleep infinity
-Environment=PROBE_REV=2
+Environment=PROBE_REV=3
 
 [Install]
 WantedBy=multi-user.target
